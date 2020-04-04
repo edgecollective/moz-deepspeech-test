@@ -1,0 +1,110 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/dwblair/gitwork/kenlm/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a8458/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a8458.dir/build.make CMakeFiles/cmTC_a8458.dir/build
+make[1]: Entering directory '/home/dwblair/gitwork/kenlm/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a8458.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a8458.dir/CheckSymbolExists.c.o   -c /home/dwblair/gitwork/kenlm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a8458
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8458.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a8458.dir/CheckSymbolExists.c.o  -o cmTC_a8458 
+CMakeFiles/cmTC_a8458.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a8458.dir/build.make:97: recipe for target 'cmTC_a8458' failed
+make[1]: *** [cmTC_a8458] Error 1
+make[1]: Leaving directory '/home/dwblair/gitwork/kenlm/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a8458/fast' failed
+make: *** [cmTC_a8458/fast] Error 2
+
+File /home/dwblair/gitwork/kenlm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/dwblair/gitwork/kenlm/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eeec2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eeec2.dir/build.make CMakeFiles/cmTC_eeec2.dir/build
+make[1]: Entering directory '/home/dwblair/gitwork/kenlm/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eeec2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_eeec2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_eeec2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eeec2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_eeec2.dir/CheckFunctionExists.c.o  -o cmTC_eeec2 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_eeec2.dir/build.make:97: recipe for target 'cmTC_eeec2' failed
+make[1]: *** [cmTC_eeec2] Error 1
+make[1]: Leaving directory '/home/dwblair/gitwork/kenlm/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_eeec2/fast' failed
+make: *** [cmTC_eeec2/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/dwblair/gitwork/kenlm/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e3b50/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e3b50.dir/build.make CMakeFiles/cmTC_e3b50.dir/build
+make[1]: Entering directory '/home/dwblair/gitwork/kenlm/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e3b50.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e3b50.dir/CheckSymbolExists.c.o   -c /home/dwblair/gitwork/kenlm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e3b50
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3b50.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e3b50.dir/CheckSymbolExists.c.o  -o cmTC_e3b50 
+CMakeFiles/cmTC_e3b50.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e3b50.dir/build.make:97: recipe for target 'cmTC_e3b50' failed
+make[1]: *** [cmTC_e3b50] Error 1
+make[1]: Leaving directory '/home/dwblair/gitwork/kenlm/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e3b50/fast' failed
+make: *** [cmTC_e3b50/fast] Error 2
+
+File /home/dwblair/gitwork/kenlm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/dwblair/gitwork/kenlm/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b994b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b994b.dir/build.make CMakeFiles/cmTC_b994b.dir/build
+make[1]: Entering directory '/home/dwblair/gitwork/kenlm/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b994b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b994b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b994b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b994b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_b994b.dir/CheckFunctionExists.c.o  -o cmTC_b994b -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b994b.dir/build.make:97: recipe for target 'cmTC_b994b' failed
+make[1]: *** [cmTC_b994b] Error 1
+make[1]: Leaving directory '/home/dwblair/gitwork/kenlm/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b994b/fast' failed
+make: *** [cmTC_b994b/fast] Error 2
+
+
